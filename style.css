@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    background: #0F172A;
+    color: #F8FAFC;
+    text-align: center;
+}
+
+header h1 {
+    color: #818CF8;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 40px 0;
+}
+
+button {
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.choice-btn {
+    background: #6366F1;
+    color: white;
+}
+
+.choice-btn:hover {
+    background: #4F46E5;
+    transform: scale(1.05);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#result-display {
+    margin: 30px auto;
+    font-size: 1.2rem;
+    color: #CBD5E1;
+}
+
+#score {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1E293B;
+    border-radius: 15px;
+}
+
+#win {
+    color: #10B981;
+    font-weight: bold;
+}
+
+#draw {
+    color: #F59E0B;
+    font-weight: bold;
+}
+
+#lose {
+    color: #EF4444;
+    font-weight: bold;
+}
+
+#reset {
+    background: transparent;
+    color: #CBD5E1;
+    border: 1px solid #475569;
+}
+
+#reset:hover {
+    background: #334155;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}

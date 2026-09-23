@@ -1,55 +1,38 @@
+**# Shifumi**
 
-# Shifumi
+🎮 Jeu de Shifumi (Pierre, Feuille, Ciseaux) réalisé en JavaScript.
 
-Un petit jeu de **Pierre, Feuille, Ciseaux** développé en HTML, CSS et JavaScript.
+**## Démo**
 
-Ce projet a été réalisé dans le cadre de mon apprentissage du JavaScript. Il me permet de découvrir les bases de la programmation.
+[Accéder au jeu](https://leocollet07.github.io/shifumi/)
 
-## 📸 Présentation
+**## Technologies**
 
-Le joueur choisit entre Pierre, Feuille et Ciseaux. L'ordinateur effectue un choix aléatoire, puis le résultat de la partie est affiché à l'écran.
+* HTML5
+* CSS3
+* JavaScript ES6
 
-Un système de score permet de suivre les victoires, les égalités et les défaites.
+**## Fonctionnalités**
 
-## ✨ Fonctionnalités
+* Choix entre Pierre, Feuille et Ciseaux
+* Jeu contre l'ordinateur
+* Choix aléatoire de l'ordinateur
+* Détection des victoires, égalités et défaites
+* Compteur de victoires, d'égalités et de défaites
+* Réinitialisation des scores
 
-- Choisir entre Pierre, Feuille et Ciseaux.
-- Générer un choix aléatoire pour l'ordinateur.
-- Déterminer automatiquement le résultat de chaque partie.
-- Afficher le résultat dans la page.
-- Comptabiliser les victoires, les égalités et les défaites.
-- Réinitialiser le score à tout moment.
+**## Lancement local**
 
-## 🛠️ Technologies utilisées
+1. Cloner le dépôt :
 
-- **HTML** : structure de la page.
-- **CSS** : mise en forme et design.
-- **JavaScript** : logique du jeu et interactions avec l'utilisateur.
+   ```bash
+   git clone https://github.com/leocollet07/shifumi.git
+   ```
 
-## 📂 Structure du projet
+2. Ouvrir le dossier dans VS Code.
 
-```text
-Shifumi/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+3. Lancer `index.html` avec Live Server.
 
-## 🎯 Règles du jeu
+**## Auteur**
 
-| Choix du joueur | Résultat |
-|---|---|
-| Pierre contre Ciseaux | Victoire |
-| Feuille contre Pierre | Victoire |
-| Ciseaux contre Feuille | Victoire |
-| Deux choix identiques | Égalité |
-| Toute autre combinaison | Défaite |
-
-## 👨‍💻 Auteur
-
-Projet réalisé par **Léo COLLET** dans le cadre de mon apprentissage du développement web.
-
----
-
-Merci d'avoir consulté mon projet !
+Léo COLLET
